@@ -17,7 +17,7 @@
 package com.alibaba.boot.dubbo.actuate.endpoint;
 
 import com.alibaba.boot.dubbo.util.DubboUtils;
-import com.alibaba.dubbo.common.Version;
+import org.apache.dubbo.common.Version;
 import org.springframework.boot.actuate.endpoint.AbstractEndpoint;
 import org.springframework.boot.actuate.endpoint.Endpoint;
 import org.springframework.boot.context.properties.ConfigurationProperties;

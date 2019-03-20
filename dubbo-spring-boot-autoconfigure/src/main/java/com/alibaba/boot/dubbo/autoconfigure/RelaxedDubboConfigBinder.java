@@ -16,15 +16,15 @@
  */
 package com.alibaba.boot.dubbo.autoconfigure;
 
-import com.alibaba.dubbo.config.AbstractConfig;
-import com.alibaba.dubbo.config.spring.context.properties.AbstractDubboConfigBinder;
-import com.alibaba.dubbo.config.spring.context.properties.DubboConfigBinder;
+import org.apache.dubbo.config.AbstractConfig;
+import org.apache.dubbo.config.spring.context.properties.AbstractDubboConfigBinder;
+import org.apache.dubbo.config.spring.context.properties.DubboConfigBinder;
 import org.springframework.beans.MutablePropertyValues;
 import org.springframework.boot.bind.RelaxedDataBinder;
 
 import java.util.Map;
 
-import static com.alibaba.dubbo.config.spring.util.PropertySourcesUtils.getSubProperties;
+import static org.apache.dubbo.config.spring.util.PropertySourcesUtils.getSubProperties;
 
 /**
  * Spring Boot Relaxed {@link DubboConfigBinder} implementation

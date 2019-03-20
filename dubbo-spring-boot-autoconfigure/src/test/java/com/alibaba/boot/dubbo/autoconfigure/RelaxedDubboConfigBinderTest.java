@@ -16,9 +16,9 @@
  */
 package com.alibaba.boot.dubbo.autoconfigure;
 
-import com.alibaba.dubbo.config.ApplicationConfig;
-import com.alibaba.dubbo.config.ProtocolConfig;
-import com.alibaba.dubbo.config.RegistryConfig;
+import org.apache.dubbo.config.ApplicationConfig;
+import org.apache.dubbo.config.ProtocolConfig;
+import org.apache.dubbo.config.RegistryConfig;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;

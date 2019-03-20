@@ -16,7 +16,7 @@
  */
 package com.alibaba.boot.dubbo.actuate.health;
 
-import com.alibaba.dubbo.common.status.StatusChecker;
+import org.apache.dubbo.common.status.StatusChecker;
 import org.springframework.boot.actuate.health.HealthIndicator;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
@@ -54,13 +54,13 @@ public class DubboHealthIndicatorProperties {
     /**
      * The nested class for {@link StatusChecker}'s names
      * <pre>
-     * registry=com.alibaba.dubbo.registry.status.RegistryStatusChecker
-     * spring=com.alibaba.dubbo.config.spring.status.SpringStatusChecker
-     * datasource=com.alibaba.dubbo.config.spring.status.DataSourceStatusChecker
-     * memory=com.alibaba.dubbo.common.status.support.MemoryStatusChecker
-     * load=com.alibaba.dubbo.common.status.support.LoadStatusChecker
-     * server=com.alibaba.dubbo.rpc.protocol.dubbo.status.ServerStatusChecker
-     * threadpool=com.alibaba.dubbo.rpc.protocol.dubbo.status.ThreadPoolStatusChecker
+     * registry=org.apache.dubbo.registry.status.RegistryStatusChecker
+     * spring=org.apache.dubbo.config.spring.status.SpringStatusChecker
+     * datasource=org.apache.dubbo.config.spring.status.DataSourceStatusChecker
+     * memory=org.apache.dubbo.common.status.support.MemoryStatusChecker
+     * load=org.apache.dubbo.common.status.support.LoadStatusChecker
+     * server=org.apache.dubbo.rpc.protocol.dubbo.status.ServerStatusChecker
+     * threadpool=org.apache.dubbo.rpc.protocol.dubbo.status.ThreadPoolStatusChecker
      * </pre>
      *
      * @see StatusChecker

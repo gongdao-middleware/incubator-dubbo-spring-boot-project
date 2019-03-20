@@ -17,11 +17,11 @@
 package com.alibaba.boot.dubbo.actuate.endpoint.mvc;
 
 import com.alibaba.boot.dubbo.actuate.endpoint.DubboEndpoint;
-import com.alibaba.dubbo.config.*;
-import com.alibaba.dubbo.config.annotation.Reference;
-import com.alibaba.dubbo.config.spring.ReferenceBean;
-import com.alibaba.dubbo.config.spring.ServiceBean;
-import com.alibaba.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor;
+import org.apache.dubbo.config.*;
+import org.apache.dubbo.config.annotation.Reference;
+import org.apache.dubbo.config.spring.ReferenceBean;
+import org.apache.dubbo.config.spring.ServiceBean;
+import org.apache.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.BeansException;
@@ -54,8 +54,8 @@ import java.util.concurrent.ConcurrentMap;
 
 import static com.alibaba.boot.dubbo.actuate.endpoint.DubboEndpoint.*;
 import static com.alibaba.boot.dubbo.util.DubboUtils.filterDubboProperties;
-import static com.alibaba.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor.BEAN_NAME;
-import static com.alibaba.dubbo.registry.support.AbstractRegistryFactory.getRegistries;
+import static org.apache.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor.BEAN_NAME;
+import static org.apache.dubbo.registry.support.AbstractRegistryFactory.getRegistries;
 import static org.springframework.beans.factory.BeanFactoryUtils.beansOfTypeIncludingAncestors;
 import static org.springframework.util.ClassUtils.isPrimitiveOrWrapper;
 
